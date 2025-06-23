@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(235, 223, 205);
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+            height: 80vh;
+            background: url('images/image-1.jpg');
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 200px;
+            color: white;
+            font-family: sans-serif;
+            font-size: 55px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 5px;
+            padding-top: 50px;
+
+        }
+
+
+        li {
+            /* border: 2px solid black; */
+            background-color: white;
+            padding: 10px;
+            padding-right: 40px;
+            font-family: sans-serif;
+            font-size: 2em;
+            border-radius: 8px;
+        }
+
+        .button {
+            padding-top: 25px;
+            text-align: center;
+        }
+
+        .button button {
+            border: none;
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: sans-serif;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: rgb(250, 221, 32);
+            color: white;
+        }
+
+        main {
+            position: absolute;
+            bottom: 30px;
+            display: inline-flex;
+            gap: 60px;
+        }
+
+        .container {
+            padding-left: 200px;
+        }
+
+        .item {
+            height: 190px;
+            width: 280px;
+            background-color: white;
+            border: 2px solid transparent;
+            margin: 4px;
+            font-size: 20px;
+            font-family: sans-serif;
+            padding-left: 15px;
+            padding-top: 10px;
+            line-height: 1.5em;
+            border-radius: 9px;
+
+        }
+
+        .item2 div:nth-last-child(1) {
+            padding-left: 9px;
+            font-weight: bold
+        }
+
+        .item div:nth-child(1) {
+            padding-left: 12px;
+            font-weight: bolder;
+            font-size: 22px;
+            padding-bottom: 10px;
+        }
+
+        span {
+            padding: 8px;
+        }
+
+
+        img {
+            display: inline-flex;
+            justify-content: center;
+            height: 70px;
+            width: 60px;
+            object-fit: cover;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <h1>FIND YOUR NEXT ESCAPE</h1>
+            <nav>
+                <li><span>What</span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                        width="24px" fill="#000000">
+                        <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+                    </svg></li>
+                <li><span>Where</span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                        width="24px" fill="#000000">
+                        <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+                    </svg></li>
+                <li><span>When</span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                        width="24px" fill="#000000">
+                        <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+                    </svg></li>
+            </nav>
+            <div class="button">
+                <button>Search Trips</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container"></div>
+        <div class="item item1">
+            <div>Popular Destinations</div>
+            <div>• Italy</div>
+            <div>• Iceland</div>
+            <div>• Switzerland</div>
+            <div>• New Zealand</div>
+        </div>
+        <div class="item item2">
+            <div>Travel Experiences</div>
+            <span><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxTVW7qIPLFJ_alveDA1xU-P0mGXH0CF98Fw&s"
+                    alt=""></span>
+            <span><img
+                    src="https://media.istockphoto.com/id/904172104/photo/weve-made-it-all-this-way-i-am-proud.jpg?s=612x612&w=0&k=20&c=MewnsAhbeGRcMBN9_ZKhThmqPK6c8nCT8XYk5ZM_hdg="
+                    alt=""></span>
+            <span><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5_ZfZjPt3xT9xB3v-wOhRdhud-aXlA1SJlQ&s"
+                    alt=""></span>
+            <div>User Reviews</div>
+        </div>
+        <div class="item item3">
+            <div>User Feedbacks</div>
+            <div>• Amazing Trip!</div>
+            <div>• Highly Recommened...</div>
+            <div>• Good vibes👌</div>
+            <div></div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
